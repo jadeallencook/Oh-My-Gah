@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 // external components
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { SocialFeedComponent } from './social-feed/social-feed.component';
 import { SocialLinksComponent } from './social-links/social-links.component';
 import { ExtendedDealsComponent } from './extended-deals/extended-deals.component';
 import { SingleItemComponent } from './single-item/single-item.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
     declarations: [
@@ -29,12 +31,31 @@ import { SingleItemComponent } from './single-item/single-item.component';
         SocialFeedComponent,
         SocialLinksComponent,
         ExtendedDealsComponent,
-        SingleItemComponent
+        SingleItemComponent,
+        ContactComponent
     ],
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule
+        HttpModule,
+        RouterModule.forRoot([
+          {
+            path: '',
+            component: TodaysDealComponent
+          }, {
+            path: 'today',
+            component: TodaysDealComponent
+          }, {
+            path: 'extended',
+            component: ExtendedDealsComponent
+          }, {
+            path: 'dashboard',
+            component: UserDashboardComponent
+          }, {
+            path: 'contact',
+            component: ContactComponent
+          }
+        ])
     ],
     providers: [],
     bootstrap: [

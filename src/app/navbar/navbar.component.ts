@@ -5,11 +5,25 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
+
 export class NavbarComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  // links for btns
+  links = [
+      {
+        text: 'Contact',
+        link: '/contact'
+      }, {
+        text: 'Account',
+        link: '/dashboard'
+      }, {
+        text: 'Extended',
+        link: '/extended'
+      }, {
+        text: 'Today',
+        link: '/today'
+      },
+    ];
+  constructor() {}
+  ngOnInit() {}
 
 }
