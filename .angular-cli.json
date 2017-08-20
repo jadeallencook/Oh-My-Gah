@@ -19,9 +19,34 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/bootstrap.min.css",
+        "assets/lib/custom-slider/css/nivo-slider.css",
+        "assets/lib/custom-slider/css/preview.css",
+        "assets/css/font-awesome.min.css",
+        "assets/css/owl.carousel.css",
+        "assets/css/jquery-ui.css",
+        "assets/css/meanmenu.min.css",
+        "assets/css/animate.css",
+        "assets/css/style.css",
+        "assets/css/responsive.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/vendor/modernizr-2.8.3.min.js",
+        "assets/js/vendor/jquery-1.12.3.min.js",
+        "assets/js/bootstrap.min.js",
+        "assets/js/jquery.meanmenu.js",
+        "assets/js/wow.min.js",
+        "assets/js/owl.carousel.min.js",
+        "assets/js/jquery.countdown.min.js",
+        "assets/js/jquery-price-slider.js",
+        "assets/js/jquery.elevatezoom.js",
+        "assets/js/jquery.scrollUp.min.js",
+        "assets/js/plugins.js",
+        "assets/lib/custom-slider/js/jquery.nivo.slider.js",
+        "assets/lib/custom-slider/home.js",
+        "assets/js/main.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
