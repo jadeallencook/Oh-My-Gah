@@ -90,84 +90,8 @@ padding: 0
 /*----------------------------------------*/
 /*  1.0.1  Webfont CSS
 /*----------------------------------------*/
-body {font-family: 'Futura Futuris';}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-BoldItalic.eot');
-	src: url('fonts/webfonts/FuturaFuturis-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-BoldItalic.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-BoldItalic.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-BoldItalic.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-BoldItalic.svg#FuturaFuturis-BoldItalic') format('svg');
-	font-weight: bold;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-Medium.eot');
-	src: url('fonts/webfonts/FuturaFuturis-Medium.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-Medium.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-Medium.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-Medium.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-Medium.svg#FuturaFuturis-Medium') format('svg');
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-Condensed.eot');
-	src: url('fonts/webfonts/FuturaFuturis-Condensed.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-Condensed.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-Condensed.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-Condensed.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-Condensed.svg#FuturaFuturis-Condensed') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-MediumItalic.eot');
-	src: url('fonts/webfonts/FuturaFuturis-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-MediumItalic.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-MediumItalic.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-MediumItalic.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-MediumItalic.svg#FuturaFuturis-MediumItalic') format('svg');
-	font-weight: 500;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-Black.eot');
-	src: url('fonts/webfonts/FuturaFuturis-Black.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-Black.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-Black.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-Black.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-Black.svg#FuturaFuturis-Black') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-Light.eot');
-	src: url('fonts/webfonts/FuturaFuturis-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-Light.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-Light.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-Light.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-Light.svg#FuturaFuturis-Light') format('svg');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Futura Futuris';
-	src: url('fonts/webfonts/FuturaFuturis-Bold.eot');
-	src: url('fonts/webfonts/FuturaFuturis-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/webfonts/FuturaFuturis-Bold.woff2') format('woff2'),
-		url('fonts/webfonts/FuturaFuturis-Bold.woff') format('woff'),
-		url('fonts/webfonts/FuturaFuturis-Bold.ttf') format('truetype'),
-		url('fonts/webfonts/FuturaFuturis-Bold.svg#FuturaFuturis-Bold') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
+body {font-family: 'Poppins', sans-serif;}
+
 /*----------------------------------------*/
 /*  1.1.0  Home One CSS
 /*----------------------------------------*/
@@ -199,22 +123,22 @@ ul li.login ul li:hover a{
     color: #606060;
 }
 .language-usd ul li a, .account-cart ul li a {
-    color: #ffffff;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: 500;
+  color: #ffffff;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 ul.submenu-mainmenu li.single-cart-item .cart-info > a {
     font-size: 12px;
     color: #606060 ;
-    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 ul.submenu-mainmenu li.single-cart-item .cart-info > span {
     color: #303030;
-    font-family: "Lato",sans-serif;
     font-size: 12px;
+    font-weight: 400;
 }
 li.single-cart-item a.trash i {
     font-size: 18px;
@@ -236,7 +160,6 @@ li.single-cart-item a.trash i {
     width: 220px;
     z-index: -99;
     border: 1px solid #ADADAD;
-    font-family: 'Futura Futuris';
     font-weight: 500;
 }
 .header-top-left .language-usd ul li ul.submenu-mainmenu{
@@ -284,7 +207,6 @@ li.single-cart-item a.trash i {
     color: #303030 !important;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Futura Futuris';
     font-weight: 500;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -325,7 +247,7 @@ li.single-cart-item a.trash i {
     width: 20px;
 }
 .add-bag > a {
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
 }
 .account-cart ul li.cart ul.submenu-mainmenu{
@@ -340,7 +262,6 @@ li.single-cart-item a.trash i {
 .language-usd > ul > li > ul.submenu-mainmenu > li > a, .account-cart > ul > li > ul.submenu-mainmenu > li > a{
     color: #1e1e1e !important;
     display: block;
-    font-family: 'Futura Futuris'
     font-size: 12px;
     padding: 6px 16px;
     -webkit-transition: all 0.5s ease 0s;
@@ -499,10 +420,10 @@ span.cart-info a:hover{
     position: absolute;
 }
 .mainmenu ul li a {
-    color: #1e1e1e;
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #1e1e1e;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .mainmenu ul > li:hover > a, .mainmenu ul > li.active > a, .mega-menu a:hover {
     color: #3e7db7;
@@ -536,11 +457,11 @@ span.cart-info a:hover{
     float: right;
 }
 .search-box form {
-    border: 1px solid #909090;
-    height: 35px;
-    position: relative;
-    width: 155px;
-    overflow: hidden;
+  border: 1px solid #909090;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+  width: 254px;
 }
 .search-box button {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -560,10 +481,10 @@ span.cart-info a:hover{
     border: medium none;
 }
 .search-box input[type="text"] {
-    font-family: "Lato",sans-serif;
-    font-size: 14px;
-    padding: 6px 0 6px 10px;
-    width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 0 6px 10px;
+  width: 100%;
 }
 .search-box i.fa.fa-search {
     font-size: 16px;
@@ -572,13 +493,12 @@ span.cart-info a:hover{
     display: block;
 }
 .mega-menu span a.title {
-    color: #303030 !important;
-    font-family: 'Futura Futuris';
-    font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 15px;
-    position: relative;
-    text-transform: uppercase;
+  color: #303030 !important;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
 }
 .mainmenu ul > li:first-child > a{
     padding-left: 0px;
@@ -649,30 +569,35 @@ span.cart-info a:hover{
 /*----------------------------------------*/
 /*  1.2.0  Slider CSS
 /*----------------------------------------*/
-.slider-content h4 {
-    color: #303030;
-    font-family: 'Futura Futuris';
-    font-size: 18px;
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 300;
-    line-height: 28px;
+.slider-content h3 {
+    color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: normal;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
-.slider-content h1.title {
-    color: #444;
-    font-family: 'Futura Futuris';
-    font-size: 62px;
-    margin-bottom: 25px;
-    line-height: 53px;
-    text-transform: uppercase;
-    font-weight: bold;
+
+.slider-content h2.title {
+  color: #fff;
+  display: block;
+  font-family: "Playfair Display",serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.slider-content h3.ti7 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .nivo_text {
-    left: 48%;
-    text-align: center;
-    top: 38%;
-    height: auto;
-    position: absolute;
+  margin-top: 9.5%;
+  text-align: center;
 }
 .nivo_text .slider-img {
     left: -66%;
@@ -690,16 +615,16 @@ span.cart-info a:hover{
 .slider-button {
     border-bottom: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 20px;
     text-transform: uppercase;
     display: block;
     background: #303030;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    font-weight: 600;
 }
 .slider-button:hover {
     color: #fff;
@@ -775,7 +700,6 @@ span.cart-info a:hover{
 }
 .service-info h2{
     color: #303030;
-    font-family: 'Futura Futuris';
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
@@ -786,11 +710,11 @@ span.cart-info a:hover{
 .service-info h2 a:hover{
     color: #E83E38;
 }
-.service-info p{
-    font-size: 14px;
-    color: #606060;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
+.service-info p {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
 }
 .home-two .service-info p {
     color: #dddddd;
@@ -849,11 +773,11 @@ span.cart-info a:hover{
 .single-banner.right .single-banner-text a.shop-button{
     border: 1px solid #fff;
 }
-.single-banner-text h3 a{
-    font-size: 28px;
-    color: #606060;
-    font-weight: 500;
-    letter-spacing: 3px;
+.single-banner-text h3 a {
+  color: #606060;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 a.shop-button{
     font-size: 14px;
@@ -879,13 +803,13 @@ a.shop-button{
 /*----------------------------------------*/
 .section-title h2 {
     color: #bebebe;
-    font-family: "Futura Futuris";
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 89px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 600;
 }
 .popular-area .section-title h2 {
     margin-bottom: 16px;
@@ -906,13 +830,22 @@ a.shop-button{
     font-size: 14px;
     text-transform: uppercase;
 }
-.wish-icon-hover.text-center > h3, .product-content.text-center > h3 {
-    color: #606060;
-    font-size: 21px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-transform: capitalize;
+.wish-icon-hover.text-center > h3 {
+  color: #606060;
+  font-size: 21px;
+  font-weight: 500;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-transform: capitalize;
+}
+.product-content.text-center > h3 {
+  color: #606060;
+  font-size: 21px;
+  font-weight: 500;
+  left: 0;
+  right: 0;
+  text-transform: capitalize;
 }
 .single-latest-blog-img {
     padding-bottom: 26px;
@@ -925,14 +858,28 @@ a.shop-button{
     color: #606060;
     float: right;
 }
-.wish-icon-hover h4 a, .product-content h4 a {
-    color: #3e7db7;
-    font-size: 14px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-transform: uppercase;
-    margin-top: 35px;
+.wish-icon-hover h4 a {
+  color: #3e7db7;
+  font-size: 14px;
+  font-weight: 600;
+  left: 0;
+  margin-top: 35px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+}
+.product-content h4 a {
+  color: #3e7db7;
+  font-size: 14px;
+  font-weight: 600;
+  left: 0;
+  margin-top: 0px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+}
+.product-content.text-center > h4 {
+  margin-bottom: 0;
 }
 .single-product-img.clearfix.hover-effect > a {
     display: block;
@@ -979,19 +926,17 @@ a.shop-button{
     top: 15%;
 }
 .big-one .timer-banner-text h2{
-    font-family: 'Futura Futuris';
-    font-weight: bold;
+    font-weight: 600;
 }
 .timer-banner-text a.view-more {
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    font-family: "Futura Futuris";
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    padding: 7px 20px;
-    transition: all 0.5s ease 0s;
-    margin-right: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 5px;
+  padding: 7px 20px;
+  transition: all 0.5s ease 0s;
 }
 .single-banner-small:hover .timer-banner-text a.view-more{
     color: #fff;
@@ -1005,7 +950,6 @@ a.shop-button{
     right: 18px;
     position: absolute;
     margin: 0;
-    font-family: 'Futura Futuris';
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1030,7 +974,6 @@ a.shop-button{
     text-align: center;
 }
 .timer .timer-grid span {
-    font-family: 'Futura Futuris';
     text-align: center;
     font-size: 18px;
     color: #fff;
@@ -1082,7 +1025,6 @@ span.counting{
 .timer-grid > div{
     display: inline-block;
     font-size: 14px;
-    font-family: 'Futura Futuris';
     color: #e23e57;
     background: #E23E57;
     height: 55px;
@@ -1135,11 +1077,12 @@ span.counting{
 .section-tab-menu, .tendy-tab-menu {
     border-bottom: 1px solid #F5F5F5;
 }
-.section-tab-menu ul li a, .tendy-tab-menu ul li a{
-    color: #a6a6a6 !important;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+.section-tab-menu ul li a, .tendy-tab-menu ul li a {
+  color: #a6a6a6 !important;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .section-tab-menu ul li:hover a, .tendy-tab-menu ul li:hover a,.section-tab-menu ul li.active a, .tendy-tab-menu ul li.active a{
     color: #1e1e1e !important;
@@ -1315,7 +1258,7 @@ span.counting{
     overflow: hidden;
     padding-bottom: 8px;
     width: 450px;
-    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 .newsletter-box form button {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -1324,24 +1267,24 @@ span.counting{
     font-size: 14px;
     line-height: 21px;
     padding: 8px 20px;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
+.home-two .newsletter-wrapper{width: 59%; margin: auto}
 .newsletter-box form button:hover {
     background: #3e7db7;
     border: 1px solid #3e7db7;
     color: #fff;
 }
 label {
-    color: #ffffff;
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 100px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 100px;
 }
 .checkbox-title > input {
     margin-right: 15px;
@@ -1383,27 +1326,26 @@ label {
 .client-area .owl-theme .owl-controls .owl-buttons div {
     background: #fff;
 }
-.date-comment h4{
-    float: left;
-    color: #303030;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
+.date-comment h4 {
+  color: #303030;
+  float: left;
+  font-size: 18px;
+  font-weight: 300;
 }
 .date-comment{
     border-bottom: 1px solid #ddd;
     margin-bottom: 12px;
     padding: 0px 30px;
 }
-.date-comment h5{
-    color: #606060;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
+.date-comment h5 {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 400;
 }
 .blog-content h4 a{
     font-size: 18px;
     color: #303030;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -1418,8 +1360,8 @@ label {
 .blog-content p, .continue-reading > a{
     font-size: 14px;
     color: #606060;
-    font-family: 'Lato', sans-serif;
     line-height: 24px;
+    font-weight: 300;
 }
 .continue-reading > a{
     color: #303030;
@@ -1427,6 +1369,7 @@ label {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    font-weight: 600;
 }
 .blog-icon{
     float: right;
@@ -1467,9 +1410,8 @@ label {
     text-transform: uppercase;
     font-size: 20px;
     color: #282828;
-    font-family: 'Futura Futuris';
     display: block;
-    font-weight: bold;
+    font-weight: 600;
 }
 .single-client > a {
     display: block;
@@ -1485,14 +1427,14 @@ label {
     padding-top: 91px;
 }
 .footer-widget h5 {
-    color: #fff;
-    font-family: 'Futura Futuris';
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 15px;
-    position: relative;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .footer-widget h5::before {
     background: #dddddd none repeat scroll 0 0;
@@ -1530,7 +1472,6 @@ label {
     margin: 0px;
     font-size: 12px;
     color: #ddd;
-    font-family: 'Futura Futuris';
     line-height: 20px;
 }
 .footer-contact-info p a:hover{
@@ -1551,8 +1492,7 @@ label {
     color: #ddd;
     font-size: 14px;
     line-height: 25px;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 300;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -1574,12 +1514,12 @@ label {
 .payment.text-right {
     margin-top: 6px;
 }
-.copyright p{
-    font-size: 13px;
-    color: #ddd;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 10px 0px;
+.copyright p {
+  color: #ddd;
+  font-size: 13px;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 300;
 }
 .copyright p span a{
     color: #3e7db7;
@@ -1593,11 +1533,10 @@ label {
 .footer-logo {
   margin-bottom: 20px;
 }
-.footer-address > p, .footer-widget > p{
-    color: #ddd;
-    font-size: 14px;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+.footer-address > p, .footer-widget > p {
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 300;
 }
 .footer-address > p:first-child{
     margin-bottom: 35px;
@@ -1683,7 +1622,6 @@ ul.social-icon li i:hover{
 .home-two .single-banner-small.small-one > p {
     bottom: 10px;
     color: #ffffff;
-    font-family: "Futura Futuris";
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -1695,7 +1633,7 @@ ul.social-icon li i:hover{
 .banner-timer-area .slider-button {
     bottom: 35px;
     display: inline-block;
-    left: 330px;
+    left: 49%;
     position: absolute;
 }
 .banner-timer-area .slider-button:hover {
@@ -1706,7 +1644,6 @@ ul.social-icon li i:hover{
     width: 50%;
     background: #303030;
     margin: 0;
-    text-align: center;
 }
 .newsletter-area .section-title h2 {
     color: #909090;
@@ -1717,23 +1654,26 @@ ul.social-icon li i:hover{
 .newsletter-area.home-two .section-title h2{
     text-align: left;
 }
+.subscribing .checkbox-title > input:focus{outline: 0}
 .newsletter-box .subscribing label input {
     position: relative;
     top: 2px;
 }
-.newsletter-area .section-title p{
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Lato', sans-serif;
+.newsletter-area .section-title p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-.newsletter-area.home-two .section-title, .home-two .newsletter-box form input{
+.home-two .newsletter-area .section-title p{
+    text-align: left;
+}
+.home-two .newsletter-box form input{
     display: inline-block;
     text-align: left;
 }
 .home-two .newsletter-box form input{
     margin: 0;
-    width: 370px;
     border-bottom: 1px solid #909090;
 }
 .home-two .newsletter-box form{
@@ -1743,14 +1683,12 @@ ul.social-icon li i:hover{
 .home-two label {
     color: #909090;
     margin-bottom: 60px;
+    text-align: left;
 }
 .home-two .newsletter-box form button {
     float: left;
-    margin-left: 152px;
     margin-top: 30px;
-}
-.home-two .newsletter-box .subscribing {
-  margin-left: 25px;
+    overflow: hidden;
 }
 /*----------------------------------------*/
 /*  3.0.0  Shop CSS
@@ -1819,7 +1757,6 @@ ul.social-icon li i:hover{
 .filter-by h4 {
     color: #303030;
     display: inline-block;
-    font-family: "Futura Futuris";
     font-size: 14px;
     margin-right: 10px;
     font-weight: 500;
@@ -1867,7 +1804,6 @@ ul.social-icon li i:hover{
     -moz-appearance:button;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: "Futura Futuris";
     letter-spacing: 2px;
 }
 .cat-service-area select:focus {background: #ffffff none repeat scroll 0 0}
@@ -1891,14 +1827,12 @@ ul.social-icon li i:hover{
     display: inline-block;
     font-size: 14px;
     color: #282828;
-    font-family: 'Futura Futuris';
 }
 .page-menu ul li.li-page{
     margin-right: 10px;
 }
 .page-menu ul li a{
     color: #a6a6a6;
-    font-family: 'Futura Futuris';
     font-weight: bold;
     border: 1px solid #A6A6A6;
     margin-right: 5px;
@@ -1958,7 +1892,7 @@ ul.social-icon li i:hover{
 .single-left-widget.without-background {
     background: none;
     border: none;
-    padding: inherit;
+    padding: 0;
 }
 .single-left-widget.without-background .section-title h4{
     padding-top: 4px;
@@ -1968,13 +1902,12 @@ ul.social-icon li i:hover{
     margin-bottom: 0px;
 }
 .single-left-widget .section-title h4 {
-    display: block;
-    font-family: "Futura Futuris";
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
-    position: relative;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  position: relative;
 }
 .single-left-widget .section-title h4:before, .single-left-widget .section-title h4:after{
     background: #303030 none repeat scroll 0 0;
@@ -1995,13 +1928,12 @@ ul.social-icon li i:hover{
     padding: 0;
 }
 .single-left-widget .section-title ul li a {
-    color: #606060;
-    font-family: "Futura Futuris";
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: all 0.5s ease 0s;
-    letter-spacing: 2px;
+  color: #606060;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
 }
 .single-left-widget .section-title ul > li:hover > a, .single-left-widget .section-title ul li ul li a:hover, .single-left-widget .section-title ul li:hover a i, .single-left-widget .section-title ul li.active a, .single-left-widget .section-title ul li.active a i{
     color: #F05166;
@@ -2095,16 +2027,14 @@ ul.social-icon li i:hover{
     border: medium none;
     display: inline-block;
     float: left;
-    font-family: "Futura Futuris";
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 10px;
     width: 70px;
 }
 .price-filter label {
     color: #606060;
     float: left;
-    font-family: 'Futura Futuris';
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -2125,7 +2055,6 @@ ul.size-widget {
 }
 ul.size-widget li{
     float:left;
-    font-family: 'Futura Futuris';
     font-weight: 400;
     border-right: 1px solid #ddd;
 }
@@ -2141,7 +2070,6 @@ ul.size-widget li:last-child{
     font-size: 14px;
     text-align: center;
     padding: 12px 19.5px !important;
-    font-family: 'Futura Futuris';
     font-weight: 500;
 }
 .single-left-widget.padding-none .section-title h4{
@@ -2230,7 +2158,6 @@ ul.color-widget li:last-child{
     font-weight: 500;
     margin-bottom: 16px;
     display: block;
-    font-family: 'Futura Futuris';
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -2255,16 +2182,15 @@ ul.color-widget li:last-child{
     float: right;
 }
 .price-box > span {
-    color: #303030;
-    font-size: 18px;
-    margin-right: 10px;
-    font-family: 'Futura Futuris';
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
 }
 .price-box del {
-    color: #909090;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Futura Futuris';
+  color: #909090;
+  font-size: 14px;
+  font-weight: 600;
 }
 .price-rating-container{
     margin-bottom: 20px;
@@ -2367,8 +2293,7 @@ ul.color-widget li:last-child{
 .product-desc {
     color: #606060;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     margin-bottom: 25px;
 }
@@ -2513,7 +2438,6 @@ ul.color-widget li:last-child{
     border: 1px solid #ddd;
     font-size: 14px;
     color: #909090;
-    font-family: 'Futura Futuris';
     font-weight: 500;
     padding: 6px 0px;
 }
@@ -2535,11 +2459,11 @@ ul.color-widget li:last-child{
 .size-categories ul li:first-child{
     border-left: 1px solid #ddd;
 }
-.size-categories ul li a{
-    display: block;
-    color: #303030;
-    font-size: 14px;
-    font-family: 'Futura Futuris';
+.size-categories ul li a {
+  color: #303030;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
 }
 .size-quantity{
     margin-bottom: 25px;
@@ -2603,9 +2527,8 @@ ul.color-widget li:last-child{
 .description-tab-menu ul li a {
     color: #909090;
     display: block;
-    font-family: "Futura Futuris";
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
     padding-right: 45px;
     text-transform: uppercase;
@@ -2616,7 +2539,6 @@ ul.color-widget li:last-child{
 #description > p, #specification > p, #review > p, .tab-caroursel-twenty .tab-content p, .tab-content ul li {
     color: #666;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 24px;
 }
@@ -2674,7 +2596,6 @@ ul.color-widget li:last-child{
 }
 .widget-color h4.follow {
     color: #252525;
-    font-family: 'Futura Futuris';
     font-size: 15px;
     display: inline-block;
     margin-right: 10px;
@@ -2874,7 +2795,6 @@ ul.color-widget li:last-child{
     transition-property: height;
     width: 100%;
     z-index: 9999;
-    font-family: 'Futura Futuris';
 }
 .product-details-area.left-sidebar #quantity-wanted-p {
     display: inherit;
@@ -3003,8 +2923,7 @@ option {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 300;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -3063,7 +2982,6 @@ option {
     color: #303030;
     line-height: 27px;
     margin-right: 5px;
-    font-family: 'Futura Futuris';
     font-weight: 500;
 }
 .shop-fullgrid-area .breadcrumb, .shop-grid-leftsidebar-area .breadcrumb, .shop-grid-rightsidebar-area .breadcrumb {
@@ -3082,13 +3000,11 @@ option {
 p.name strong {
     color: #303030;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 p.comment_time {
     color: #606060;
     display: inline-block;
-    font-family: "Lato",sans-serif;
     font-size: 13px;
     font-style: italic;
     font-weight: 400;
@@ -3106,11 +3022,10 @@ p.comment_time {
     position: relative;
 }
 .comment_text > p {
-    color: #606060;
-    font-family: "Lato",sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 22px;
+  color: #606060;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
 }
 .comment_author.meta {
     line-height: 0;
@@ -3124,8 +3039,7 @@ p.comment_time {
     top: 15px;
     right: 25px;
     padding: 2px 10px;
-    font-family: "Lato",sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -3145,11 +3059,10 @@ ul.children_comment {
     margin-top: 50px;
 }
 .left_comment > p, .leave_comment p {
-    color: #909090;
-    font-family: "Lato",sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: -25px;
+  color: #909090;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: -25px;
 }
 .left_comment > input, textarea{
     border: none;
@@ -3173,8 +3086,7 @@ textarea {
     margin-top: 10px;
     padding: 10px 25px;
     text-transform: uppercase;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 400;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -3224,11 +3136,11 @@ textarea {
     border-style: none none solid;
     border-width: medium medium 1px;
     color: #606060 !important;
-    font-family: "Lato",sans-serif;
     margin-right: 40px;
     overflow: hidden;
     padding-bottom: 8px;
     width: 450px;
+    font-weight: 300;
 }
 .contact-area .newsletter-box form button {
     background: #303030;
@@ -3287,8 +3199,7 @@ a.continue-shopping, .discount-code > input[type="submit"], .total.text-right > 
     color: #fff;
     background: #303030;
     text-transform: uppercase;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 300;
     padding: 10px 30px;
     display: inline-block;
     border: none;
@@ -3306,21 +3217,19 @@ thead {
   background: #ffffff none repeat scroll 0 0;
 }
 .cart_list thead th {
-    color: #303030;
-    font-size: 14px;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 15px 0px;
-    text-align: center;
-    text-transform: uppercase;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 .stock > a {
     color: #30b878;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: 'Futura Futuris';
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -3332,8 +3241,7 @@ th.add-cart > a {
     font-size: 14px;
     background: #303030;
     color: #fff;
-    font-weight: 500;
-    font-family: 'Futura Futuris';
+    font-weight: 300;
     padding: 5px 15px;
     text-transform: uppercase;
     text-align: center;
@@ -3351,10 +3259,10 @@ th.add-cart > a:hover {
 td.product_des h3 a{
     font-size: 14px;
     color: #606060;
-    font-family: 'Lato', sans-serif;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    font-weight: 500;
 }
 td.product_des h3 a:hover{
     color: #3e7db7;
@@ -3377,20 +3285,14 @@ td.product_des h3 a:hover{
    border-bottom-width: 1px;
 }
 .u_price, .p_value {
-    color: #3e3f3f;
-    font-family: "Lato",sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+  color: #3e3f3f;
+  font-size: 14px;
+  font-weight: 400;
 }
 .p_value {
     color: #c43b68;
 }
-.u_price, .p_value {
-    color: #3e3f3f;
-    font-family: "Lato",sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-}
+
 .other-cart-info{
     margin-top: 30px;
 }
@@ -3479,7 +3381,6 @@ td.product_des h3 a:hover{
     border-bottom: 0 none;
     color: #ffffff;
     display: block;
-    font-family: 'Futura Futuris';
     font-weight: 500;
     padding: 10px 0 10px 30px;
     position: relative;
@@ -3514,9 +3415,8 @@ td.product_des h3 a:hover{
 }
 .single-checkout.right h3.login-title, .single-checkout h3.login-title {
     color: #303030;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300;
     margin-bottom: 35px;
     text-transform: uppercase;
 }
@@ -3525,9 +3425,8 @@ td.product_des h3 a:hover{
 }
 .single-checkout p.heading-p, .single-checkout p.fast-check {
     color: #606060;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 5px;
 }
 .single-checkout label {
@@ -3552,10 +3451,9 @@ td.product_des h3 a:hover{
 .single-checkout h4, .single-checkout.right p {
     color: #303030;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300;
     margin-top: 15px;
     margin-bottom: 5px;
-    font-family: 'Lato', sans-serif;
 }
 .single-checkout.right p {
     font-weight: 400;
@@ -3574,8 +3472,7 @@ td.product_des h3 a:hover{
     height: 38px;
     padding: 9px 30px;
     text-decoration: none;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -3659,9 +3556,8 @@ td.product_des h3 a:hover{
 .checkout-progress ul.check li a i {margin-right: 15px}
 .checkout-area .login-form p {
     color: #303030;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     margin-bottom: 0;
     margin-top: 15px;
@@ -3723,9 +3619,8 @@ input.input-text, select, textarea {
 }
 .single-pay-info > p {
     color: #303030;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 8px;
     margin-top: 15px;
 }
@@ -3780,9 +3675,8 @@ input.input-text, select, textarea {
 }
 .checkout-table thead th {
     color: #303030;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300;
     text-transform: uppercase;
 }
 .single-checkout input[type="radio"]:focus {
@@ -3805,16 +3699,15 @@ input.input-text, select, textarea {
     color: #3e7db7;
     margin-top: 5px;
     display: block;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
     cursor: pointer;
+    font-weight: 300;
 }
 .checkout-table tbody tr, .checkout-table tfoot {border-top: 1px solid #f2f2f2; width: 100%;}
 .checkout-table tbody td.p-name, .checkout-table table .p-total, .p-name-subtotal, .p-name-shipping, .p-name-total, tfoot td, .p-total label span {
     color: #606060;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 .checkout-table .button.floatright {
     margin-bottom: 20px;
@@ -3838,7 +3731,7 @@ input.input-text, select, textarea {
     text-transform: uppercase;
 }
 .p-name-total, tfoot td{
-    font-weight: 700;
+    font-weight: 300;
 }
 .checkout-buttons p {
     float: left;
@@ -3868,7 +3761,7 @@ input.input-text, select, textarea {
 .about-us-area:after{
     position: absolute;
     right: 0;
-    top: 0;
+    top: -1px;
     content: "";
     background: #fff;
     height: 100%;
@@ -3889,16 +3782,15 @@ input.input-text, select, textarea {
     padding: 30px;
     border-right: none;
 }
-.section-heading h3{
-    position: relative;
-    color: #303030;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Futura Futuris';
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: 10px;
-    margin-bottom: 30px;
+.section-heading h3 {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  position: relative;
+  text-transform: uppercase;
 }
 .section-heading h3:after{
     position: absolute;
@@ -3910,11 +3802,10 @@ input.input-text, select, textarea {
     margin: 0 0 16px;
 }
 .about-us-text {
-    font-size: 14px;
-    color: #909090;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    line-height: 25px;
+  color: #909090;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
 }
 .team-area {
     padding-bottom: 90px;
@@ -3964,14 +3855,13 @@ input.input-text, select, textarea {
 .single-member:hover .single-member-info{
     opacity: 1;
 }
-.single-member-info h3{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #303030;
-    font-size: 14px;
-    margin-bottom: 5px;
+.single-member-info h3 {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
 .single-member-info h4{
     font-family: 'Open Sans', sans-serif;
@@ -4021,11 +3911,10 @@ input.input-text, select, textarea {
     color: #fff;
     border: 1px solid #3e7db7;
 }
-.section-title span{
+.section-title span a{
     font-size: 13px;
     color: #606060;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     border: 1px solid #ddd;
     padding: 5px 10px;
     margin-right: 5px;
@@ -4036,13 +3925,13 @@ input.input-text, select, textarea {
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-.section-title span:nth-child(4){
+.section-title span:nth-child(4) a{
     margin-right: 0px;
 }
-.section-title span:nth-child(8), .section-title span:nth-child(7){
+.section-title span:nth-child(8) a, .section-title span:nth-child(7) a{
     margin-bottom: 0px;
 }
-.section-title span:hover{
+.section-title span a:hover{
     color: #fff;
     background: #000;
 }
@@ -4078,12 +3967,16 @@ input.input-text, select, textarea {
 .blog-sidebar .section-title ul li .post-info > a {
     font-size: 13px;
     letter-spacing: 0;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.blog-sidebar .section-title ul li .post-info > a:hover {
+    color: #3e7db7;
 }
 .blog-sidebar .post-info > span{
-    font-family: 'Lato', sans-serif;
     border: none;
     padding: inherit;
     margin: inherit;
@@ -4114,21 +4007,19 @@ input.input-text, select, textarea {
     padding-top: 334px;
     padding-bottom: 180px;
 }
-.error-content h2{
-    font-size: 48px;
-    color: #fff;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    line-height: 60px;
+.error-content h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 60px;
+  text-transform: uppercase;
 }
-.error-content p{
-    font-size: 21px;
-    color: #fff;
-    font-family: 'Futura Futuris';
-    font-weight: 500;
-    line-height: 28px;
+.error-content p {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 28px;
 }
 .error-content a.back-home{
     font-size: 14px;
@@ -4229,4 +4120,28 @@ input.input-text, select, textarea {
     top: 15px;
     transform: scale(0);
     transition: all 500ms ease 0s;
+}
+
+
+
+
+.slider-wrap {
+  position: relative;
+}
+.slider-wrap::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.nivo-caption {
+  z-index: 99;
+}
+.preview-2 .nivo-directionNav a {
+  z-index: 99;
 }
