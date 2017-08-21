@@ -12,5 +12,17 @@ export const environment = {
     projectId: "oh-my-gah",
     storageBucket: "",
     messagingSenderId: "191991113067"
-  }
+  },
+  links: [
+    {
+      linkText: 'Home',
+      routerLink: ''
+    }, {
+      linkText: 'Dashboard',
+      routerLink: 'dashboard'
+    }, {
+      linkText: 'Contact',
+      routerLink: 'contact'
+    }
+  ]
 };

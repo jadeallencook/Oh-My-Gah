@@ -19,15 +19,11 @@
     .cart_list thead th { padding: 15px 0px}
     .total {float: right; margin-left:0}
     .preview-2 .nivo-directionNav a.nivo-prevNav::after {right: -40px}
-    
+
 }
 /* desktop 1200px to 1399px */
 @media (min-width: 1200px) and (max-width: 1399px) {
     .slider-content h1.title {font-size: 40px; line-height: 40px}
-    .nivo_text {
-        margin-top: 6.5%;
-        text-align: center;
-    }
 }
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1169px) {
@@ -37,7 +33,6 @@
     .single-service:nth-child(3) {border:none}
     .single-banner-text h3 a{font-size: 22px}
      a.shop-button {padding: 3px 12px}
-    .wish-icon-hover ul li, .product-action ul li {width: 21%}
     .product-action ul li.add-bag {width: 57%}
     .single-banner-big {width: 66.6666666%}
     .home-two .banner-left-img, .home-two .single-banner-small {width: 25%}
@@ -63,7 +58,7 @@
     .blog-content, .continue-reading, .date-comment {padding: 0 15px}
     .p-name, .p-name-subtotal, .p-name-shipping, .p-name-total {width: 318px}
     .product-thumb ul li {margin: 3px 3px 23px}
-    .size-categories ul li a {padding: 7px 20px} 
+    .size-categories ul li a {padding: 7px 20px}
     .shop-product-text h4 a {font-size: 17px}
     .home-two .newsletter-wrapper {width: 72%}
     .banner-timer-area .slider-button {left: 43%}
@@ -72,10 +67,6 @@
     }
     .mainmenu ul li {
       padding: 52px 13px;
-    }
-    .nivo_text {
-        margin-top: 6.5%;
-        text-align: center;
     }
     .slider-content h3 {
         font-size: 30px;
@@ -98,7 +89,7 @@
     .single-service{width: 50%}
     .single-service:nth-child(2) {border:none}
     .single-banner-big {width: 66.6666666%}
-    .single-banner-small {width: 33.3333%} 
+    .single-banner-small {width: 33.3333%}
     .product-detail.shop-product-text {padding: 0px}
     .home-two .single-banner-small {width: 25%}
     .home-two .banner-left-img {padding-right: 13px}
@@ -120,11 +111,10 @@
     .contact-area .newsletter-area { padding: 0 0 40px 0}
     .contact-area .newsletter-area .section-heading h3 {margin-bottom: 50px}
     .blog-sidebar .search-box, .cart-area .col-lg-5.col-sm-12 a{margin-top: 30px}
-    ul.children_comment {padding-left: 40px} 
+    ul.children_comment {padding-left: 40px}
     .blog-sidebar, .shop-left-sidebar, .shop-grid-leftsidebar-area.rightsidebar .shop-item-filter.bottom, .cart-area .col-lg-5.col-sm-12 a {margin-bottom: 30px}
     .blog-fullview-area.left-sidebar .search-box {margin-top: 0}
     .single-left-widget .section-title ul.size-widget li a {padding: 12px 64.5px !important}
-    .shop-grid-leftsidebar-area .wish-icon-hover ul li, .product-action ul li {width: 21%}
     .shop-grid-leftsidebar-area .product-action ul li.add-bag {width: 57%}
     #list .product-desc {margin-bottom: 35px}
     .shop-product-text {padding: 22px 20px 35px 30px}
@@ -140,10 +130,6 @@
     .timer-banner-text > h2 {margin-top: 22%}
     .timer {right: 8.5%}
     .home-two .newsletter-box form button{margin-top: 0}
-    .nivo_text {
-      margin-top: 7.2%;
-      text-align: center;
-    }
     .slider-content h2.title {
         font-size: 38px;
         margin-bottom: 20px
@@ -160,7 +146,7 @@
     .preview-2 .nivo-directionNav a.nivo-prevNav {
         right: 11%;
     }
-    
+
 }
 /* small mobile :320px. */
 @media (max-width: 767px) {
@@ -223,7 +209,6 @@
     .total {width: 257px}
     .discount-code, .total {padding: 20px 8px}
     tbody { border-bottom: 1px solid #dddddd}
-    .nivo_text .slider-content h4 {margin-bottom: 10px}
     .date-comment, .blog-content, .continue-reading {padding: 0 15px}
     .product-thumb ul li {margin: 3px 3px 15px}
     .slider-content h2.title {
@@ -247,13 +232,13 @@
         left: auto;
         right: 21%;
     }
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -266,21 +251,12 @@
     .primary-image, .widget-banner img{width: 100%}
     .shop-fullgrid-area .product-action ul li a {width: 14%}
     .product-action ul li.add-bag {width: 59%, margin-right:1px}
-    .product-action ul li {margin-right: 1px}
     .single-left-widget .section-title ul.size-widget li a {padding: 12px 34.5px !important}
-    
+
     .preview-2 .nivo-directionNav a.nivo-prevNav {
         right: 15%;
     }
     .preview-2 .nivo-directionNav a.nivo-prevNav::after {
         right: -20px;
     }
-    .nivo_text {
-        margin-top: 12.5%;
-        text-align: center;
-    }
-    
-    
-    
-    
 }

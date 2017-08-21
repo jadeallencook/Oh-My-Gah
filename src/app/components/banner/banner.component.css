@@ -1,0 +1,78 @@
+.slider-content h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: normal;
+  margin-bottom: -15px;
+  text-transform: uppercase;
+}
+
+div#homepage-banner-wrapper {
+  background-color: #333;
+  background-position: center center;
+  background-size: cover;
+  padding: 75px 0px;
+}
+
+.slider-content h2.title {
+  color: #fff;
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.slider-content h3.ti7 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.nivo_text {
+  text-align: center;
+}
+
+.nivo_text .slider-img {
+  left: -66%;
+  top: -64%;
+  position: absolute;
+}
+
+.nivo_text.slide_two {
+  left: 48%;
+  text-align: left;
+  top: 28%;
+}
+
+.slider-content.slider-text-2 h1 span {
+  color: #3e7db7;
+}
+
+.slider-button {
+  border-bottom: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #3e7db7;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+.nivo-controlNav {
+  display: none;
+}
+
+.slider-button:hover {
+  background: #333;
+}

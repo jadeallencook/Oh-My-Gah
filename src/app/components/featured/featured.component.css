@@ -1,0 +1,77 @@
+.single-banner {
+  padding: 50px;
+  background-size: cover;
+}
+
+.single-banner>a.border-hover::before, .single-big-banner>a.border-hover::before, .from-blog-img>a.border-hover::before, .single-banner-small>a.border-hover::before, .single-banner-big>a.border-hover::before, .banner-left-img>a.border-hover::before {
+  border: 0 solid rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  box-sizing: border-box;
+  content: "";
+  left: 0;
+  opacity: 0;
+  overflow: visible;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease-in-out 0s;
+  z-index: 9;
+}
+
+.single-banner:hover a.border-hover::before, .single-big-banner:hover a.border-hover::before, .single-from-blog:hover .from-blog-img>a.border-hover::before, .single-banner-small:hover a.border-hover::before, .single-banner-big:hover a.border-hover::before, .banner-left-img:hover a.border-hover::before {
+  border: 25px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.single-banner:hover>a.slider-button, .single-big-banner:hover>.section-button a.slider-button {
+  color: #000;
+  background-color: #3e7db7;
+}
+
+.single-banner-text {
+  margin-top: 25px;
+  left: 60%;
+  z-index: 99;
+}
+
+.single-banner.right .single-banner-text {
+  left: 20%;
+}
+
+.single-banner.right .single-banner-text h3 a, .single-banner.right .single-banner-text a.shop-button {
+  color: #fff;
+}
+
+.single-banner.right .single-banner-text a.shop-button {
+  border: 1px solid #fff;
+}
+
+.single-banner-text h3 a {
+  color: #606060;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+a.shop-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #303030;
+  padding: 6px 20px;
+  margin: 20px 0px;
+  display: inline-block;
+  color: #303030;
+  overflow: hidden;
+  z-index: 999;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.single-banner:hover a.shop-button, .single-banner.right:hover .single-banner-text a.shop-button {
+  color: #fff;
+  border: 1px solid #3e7db7;
+  background: #3e7db7;
+}

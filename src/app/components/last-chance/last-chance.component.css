@@ -1,0 +1,102 @@
+div.product-container {
+  text-align: center;
+}
+
+.section-title h2 {
+    color: #bebebe;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.popular-area .section-title h2 {
+    margin-bottom: 16px;
+}
+.single-product {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.pro-price {
+    color: #303030;
+    font-size: 14px;
+    float: left;
+}
+.new-sale {
+    color: #3e7db7;
+    float: right;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.wish-icon-hover.text-center > h3 {
+  color: #606060;
+  font-size: 21px;
+  font-weight: 500;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-transform: capitalize;
+}
+.product-content.text-center > h3 {
+  color: #606060;
+  font-size: 21px;
+  font-weight: 500;
+  left: 0;
+  right: 0;
+  text-transform: capitalize;
+}
+.single-latest-blog-img {
+    padding-bottom: 26px;
+}
+.single-latest-blog-img > a {
+    display: block;
+}
+.single-latest-blog-text h5 {
+    font-size: 14px;
+    color: #606060;
+    float: right;
+}
+.wish-icon-hover h4 a {
+  color: #3e7db7;
+  font-size: 14px;
+  font-weight: 600;
+  left: 0;
+  margin-top: 35px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+}
+.product-content h4 a {
+  color: #3e7db7;
+  font-size: 14px;
+  font-weight: 600;
+  left: 0;
+  margin-top: 0px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+}
+.product-content.text-center > h4 {
+  margin-bottom: 0;
+}
+.single-product-img.clearfix.hover-effect > a {
+    display: block;
+}
+
+h1.price-tag, h1.product-title {
+  background-color: rgba(50, 50, 50, 0.75);
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.25em;
+  display: block;
+  float: right;
+  padding: 10px;
+  clear: both;
+}

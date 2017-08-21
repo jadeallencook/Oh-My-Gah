@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  ProductName:string = 'Winged Horse';
+  BannerCaption:string = 'This is the center piece you\'ve been looking for!';
+
+  constructor() {
+  }
+
+  ngAfterViewInit() {
+      let ImageURL: string = 'assets/img/products/winged-horse.jpg';
+      let BannerElement = document.getElementById('homepage-banner-wrapper');
+      BannerElement.style.backgroundImage = 'url("' + ImageURL + '")';
+  }
 
   ngOnInit() {
   }

@@ -2,14 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule, Routes } from '@angular/router';
+import { APP_BASE_HREF } from '@angular/common';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import { FirebaseAuthService } from './services/firebase-auth.service';
-
-import { RouterModule } from '@angular/router';
 
 // pages
 import { AppComponent } from './app.component';
@@ -32,6 +32,17 @@ import { PaymentProcessComponent } from './components/payment-process/payment-pr
 import { PhotosComponent } from './components/photos/photos.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
+import { LastChanceComponent } from './components/last-chance/last-chance.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'item/:id', component: ItemComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: '**', component: HomeComponent }
+];
 
 @NgModule({
   declarations: [
@@ -52,7 +63,9 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
     PaymentProcessComponent,
     PhotosComponent,
     ShoppingCartComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    LastChanceComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
@@ -60,9 +73,16 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
     HttpModule,
     AngularFireModule.initializeApp(environment.FirebaseConfig),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [FirebaseAuthService],
+  providers: [
+    FirebaseAuthService,
+    {
+      provide: APP_BASE_HREF,
+      useValue : ''
+    }
+  ],
   bootstrap: [AppComponent]
 })
 
