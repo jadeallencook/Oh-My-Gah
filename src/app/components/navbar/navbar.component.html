@@ -38,11 +38,11 @@
           <div class="mainmenu">
             <nav>
               <ul>
-                <li><a routerLink="#">Home</a></li>
-                <li><a routerLink="#">Featured</a></li>
-                <li *ngIf="this.FirebaseAuthService.ActiveUser"><a routerLink="#">Account</a></li>
-                <li *ngIf="!this.FirebaseAuthService.ActiveUser"><a routerLink="#">Create Account</a></li>
-                <li><a routerLink="#">Contact</a></li>
+                <li><a routerLink="">Home</a></li>
+                <li><a routerLink="item">Featured</a></li>
+                <li *ngIf="this.FirebaseAuthService.ActiveUser"><a routerLink="dashboard">Account</a></li>
+                <li *ngIf="!this.FirebaseAuthService.ActiveUser"><a routerLink="login">Create Account</a></li>
+                <li><a routerLink="">Contact</a></li>
               </ul>
             </nav>
           </div>

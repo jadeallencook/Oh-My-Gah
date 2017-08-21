@@ -39,7 +39,7 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'item/:id', component: ItemComponent },
+  { path: 'item', component: ItemComponent },
   { path: 'checkout', component: CheckoutComponent },
   { path: '**', component: HomeComponent }
 ];
