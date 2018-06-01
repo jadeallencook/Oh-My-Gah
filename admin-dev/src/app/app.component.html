@@ -1,0 +1,9 @@
+<section id="container">
+  <app-navbar></app-navbar>
+  <section id="main-content">
+    <section class="wrapper">
+      <router-outlet *ngIf="firebase.auth().currentUser"></router-outlet>
+      <app-signin *ngIf="!firebase.auth().currentUser"></app-signin>
+    </section>
+  </section>
+</section>

@@ -1,0 +1,50 @@
+<header class="header fixed-top clearfix">
+
+  <!--logo start-->
+  <div class="brand">
+
+    <a routerLink="home" class="logo">
+      Oh My Gah
+    </a>
+    <div class="sidebar-toggle-box">
+      <div class="fa fa-bars"></div>
+    </div>
+  </div>
+</header>
+<!--header end-->
+
+<!--sidebar start-->
+<aside>
+  <div id="sidebar" class="nav-collapse md-box-shadowed">
+    <!-- sidebar menu start-->
+    <div class="leftside-navigation leftside-navigation-scroll">
+      <ul class="sidebar-menu" id="nav-accordion">
+        <li class=' '>
+          <a routerLink="/home" class="hvr-bounce-to-right-sidebar-parent">
+            <span class='icon-sidebar icon-home fa-2x'></span>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class=' '>
+          <a routerLink="/products" class="hvr-bounce-to-right-sidebar-parent">
+            <span class='icon-sidebar icon-basket-loaded fa-2x'></span>
+            <span>Products</span>
+          </a>
+        </li>
+        <li class=' '>
+          <a routerLink="/orders"class="hvr-bounce-to-right-sidebar-parent">
+            <span class='icon-sidebar icon-book-open fa-2x'></span>
+            <span>Orders</span>
+          </a>
+        </li>
+        <li class=' '>
+          <a class="hvr-bounce-to-right-sidebar-parent" (click)="firebase.auth().signOut()">
+            <span class='icon-sidebar icon-logout fa-2x'></span>
+            <span>Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- sidebar menu end-->
+  </div>
+</aside>

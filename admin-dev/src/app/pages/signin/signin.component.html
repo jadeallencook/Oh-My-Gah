@@ -1,0 +1,39 @@
+<div class="bg-overlay"></div>
+<section class="registration-login-wrapper">
+  <div class="row page-login">
+    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+      <div class="form-body bg-white padding-20">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-header bg-white padding-10 text-center">
+              <h2>
+                <strong>Login</strong> to your account</h2>
+            </div>
+              <div class="inner-addon right-addon margin-bottom-15">
+                <i class="fa fa-envelope"></i>
+                <input type="text" class="form-control" placeholder="Email" [(ngModel)]="email">
+              </div>
+              <div class="inner-addon right-addon margin-bottom-15">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" placeholder="Password" [(ngModel)]="password">
+              </div>
+              <p>{{error}}</p>
+              <div class="row">
+                <div class="col-md-12 text-left">
+                  <button type="submit" class="btn btn-green btn-raised btn-flat" (click)="login()">Login</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Oh My Gah | Developed by @jadeallencook
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
