@@ -8,29 +8,29 @@
   </div>
   <!--/.c_title-->
 
-  <div class="c_content">
+  <div class="c_content" id="product-form">
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label class="control-label">Title *</label>
+          <label class="control-label" id="title-label">Title *</label>
           <input type="text" class="form-control" placeholder="Scented Candles" [(ngModel)]="item.title">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label class="control-label">Stock *</label>
+          <label class="control-label" id="stock-label">Stock *</label>
           <input type="number" class="form-control" placeholder="100" [(ngModel)]="item.stock">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label class="control-label">Price *</label>
+          <label class="control-label" id="price-label">Price *</label>
           <input type="number" class="form-control" placeholder="8.99" [(ngModel)]="item.price">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label class="control-label">ID</label>
+          <label class="control-label" id="id-label">ID</label>
           <input type="text" class="form-control" placeholder="ID12345" [(ngModel)]="item.id">
         </div>
       </div>
@@ -61,12 +61,13 @@
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label class="control-label">Image *</label>
-          <div class="fileupload fileupload-new" data-provides="fileupload">
+          <label class="control-label" id="image-label">Image *</label>
+          <img id="image-preview" *ngIf="editor.edit" src="{{images[editor.selected]}}" class="thumbnail" alt="">
+          <div *ngIf="!editor.edit" class="fileupload fileupload-new" data-provides="fileupload">
             <div class="fileupload-preview fileupload-exists thumbnail" id="base64" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
             <div>
               <input type="file" id="image-upload" style="display: inline-block;" [(ngModel)]="image">
-              <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload">
+              <a href="#" class="btn btn-danger fileupload-exists" id="remove-photo" data-dismiss="fileupload">
                 <i class="fa fa-trash"></i> Remove</a>
             </div>
           </div>
@@ -74,16 +75,66 @@
       </div>
       <div class="col-md-12">
         <div class="form-group">
-          <label class="control-label">Description *</label>
-          <textarea class="form-control autosize-animated" style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 54px;"
-            [(ngModel)]="item.description"></textarea>
+          <label class="control-label" id="description-label">Description *</label>
+          <textarea class="form-control autosize-animated" placeholder="Product description" style="max-width: 100%;" [(ngModel)]="item.description"></textarea>
         </div>
       </div>
     </div>
     <div class="form-group">
-      <button type="button" class="btn btn-wet-asphalt btn-flat" (click)="add()">Add To Site</button>
+      <button type="button" *ngIf="editor.edit" class="btn btn-wet-asphalt btn-flat" (click)="save()">Save Changes</button>
+      <button type="button" *ngIf="!editor.edit" class="btn btn-wet-asphalt btn-flat" (click)="add()">Add To Site</button>
     </div>
   </div>
   <!--/.c_content-->
+
+</div>
+
+
+<div class="row">
+
+  <div class="col-md-3" *ngFor="let uid of uids">
+    <div class="widget user-view-style-1">
+      <div class="thumbnail">
+        <div class="image-preview" [style.backgroundImage]="'url(' + images[uid] + ')'">
+          <div class="user-info">
+            <p class="user-name">{{items[uid].title}}</p>
+            <p class="user-type administrator">
+              <span class="badge">${{items[uid].price}}</span>
+            </p>
+          </div>
+        </div>
+        <div class="caption">
+          <div class="user-task-info">
+            {{items[uid].description}}
+          </div>
+          <div class="user-other-info">
+            <ul>
+              <li>
+                <b>Stock</b>
+                <span>{{items[uid].stock}}</span>
+              </li>
+              <li>
+                <b>Front</b>
+                <span>{{items[uid].front}}</span>
+              </li>
+              <li>
+                <b>Featured</b>
+                <span>{{items[uid].featured}}</span>
+              </li>
+            </ul>
+          </div>
+          <div class="user-action">
+            <button (click)="edit(uid)" type="button" class="btn btn-green btn-flat btn-sm" data-toggle="modal" data-target="#modal-pull-right-view">
+              Edit
+            </button>
+            <button (click)="delete(uid)" type="button" class="btn btn-danger btn-flat btn-sm" data-toggle="modal" data-target="#modal-pull-right-view">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/widget-->
 
 </div>

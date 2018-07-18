@@ -13851,7 +13851,7 @@ WIDGETS SECTION
     }
 
     .widget.user-view-style-1 .user-info .user-type.administrator span.badge {
-        background-color: #f1c40f;
+        background-color: #616161;
     }
 
 
@@ -13865,11 +13865,10 @@ WIDGETS SECTION
 
     .widget.user-view-style-1  .caption .user-task-info {
         background-color: #FBFBFB;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 6px;
-        height: 53px;
+        padding: 5px 25px;
+        height: 100px;
         border-bottom: 2px solid #eee;
+        overflow-x: scroll;
     }
 
     .widget.user-view-style-1  .caption .user-task-info .user-number-tickets {
@@ -13897,11 +13896,6 @@ WIDGETS SECTION
 
     .widget.user-view-style-1 .user-other-info ul li:last-child {
         margin-bottom: 12px;
-    }
-
-    .widget.user-view-style-1 .user-other-info ul li {
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
 
     .widget.user-view-style-1 .user-other-info ul li span {
